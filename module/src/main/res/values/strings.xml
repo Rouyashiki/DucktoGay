@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuckToGay</string>
+    <string name="module_description">Gay Detector 扩展文案词库，包含 SEXinus、GayHub 等 169 组替换。固定作用域，支持 libxposed API 102 热重载。</string>
+</resources>

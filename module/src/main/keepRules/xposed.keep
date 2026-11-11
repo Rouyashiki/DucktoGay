@@ -1,0 +1,8 @@
+# The framework instantiates the entry named in this Java resource.
+-adaptresourcefilecontents META-INF/xposed/java_init.list
+-keep,allowoptimization,allowobfuscation public class org.rouyashiki.ducktogay.DuckToGayModule {
+    public <init>();
+}
+
+# API annotations have no runtime dependency in the module.
+-dontwarn io.github.libxposed.annotation.**
